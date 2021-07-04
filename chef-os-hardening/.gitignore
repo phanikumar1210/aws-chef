@@ -1,0 +1,28 @@
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+coverage
+exp.*
+pkg/
+shared_test_repo/
+
+# Berkshelf
+.vagrant
+/cookbooks
+Berksfile.lock
+
+# Bundler
+Gemfile.lock
+bin/*
+.bundle/*
+
+# Test Kitchen
+.kitchen/
+.kitchen.local.yml
+
+# RVM
+/.ruby-gemset
+/.ruby-version
